@@ -11,6 +11,7 @@ from post import Post
 #         else:
 #             self.posts = posts
 
+
 @dataclass
 class Blog:
     title: str

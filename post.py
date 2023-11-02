@@ -10,7 +10,7 @@ from dataclasses import dataclass
 #             'title': self.title,
 #             'content': self.content,
 #         }
-    
+
 
 @dataclass
 class Post:
@@ -19,6 +19,6 @@ class Post:
 
     def to_dict(self):
         return {
-            'title': self.title,
-            'content': self.content,
+            "title": self.title,
+            "content": self.content,
         }
